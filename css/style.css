@@ -1,0 +1,224 @@
+html{
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+/* 導覽列顏色 */
+.navbar-default {
+	background-color: #e2b89d;
+	border-color: #ecdfd6;
+  }
+  .navbar-default .navbar-brand {
+	color: #000000;
+  }
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+	color: #a37d64;
+  }
+  .navbar-default .navbar-text {
+	color: #000000;
+  }
+  .navbar-default .navbar-nav > li > a {
+	color: #000000;
+  }
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+	color: #a37d64;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu {
+	background-color: #e2b89d;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+	color: #000000;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+	color: #a37d64;
+	background-color: #ecdfd6;
+  }
+  .navbar-default .navbar-nav > li > .dropdown-menu > li.divider {
+	background-color: #ecdfd6;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+	color: #a37d64;
+	background-color: #ecdfd6;
+  }
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+	color: #a37d64;
+	background-color: #ecdfd6;
+  }
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus {
+	color: #a37d64;
+	background-color: #ecdfd6;
+  }
+  .navbar-default .navbar-toggle {
+	border-color: #ecdfd6;
+  }
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+	background-color: #ecdfd6;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+	background-color: #000000;
+  }
+  .navbar-default .navbar-collapse,
+  .navbar-default .navbar-form {
+	border-color: #000000;
+  }
+  .navbar-default .navbar-link {
+	color: #000000;
+  }
+  .navbar-default .navbar-link:hover {
+	color: #a37d64;
+  }
+  
+  @media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	  color: #000000;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+	  color: #a37d64;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+	  color: #a37d64;
+	  background-color: #ecdfd6;
+	}
+  }
+/* 導覽列顏色結束 */
+
+.banner{
+	margin-top: 68px;
+
+}
+
+.me{
+height: 250px;
+width: 200px;
+}
+
+/* 服務 */
+.wrapper{
+	width: 100%;
+	margin:auto;
+}
+.wrapper a img{
+	width: 100%;
+	border: solid rgba(187, 116, 116, 0.726) ;
+	border-width: 20px;
+	display: inline-block;
+	justify-content: flex-start;
+}
+.wrapper a{
+	width: 32%;
+	margin: 3px;
+}
+
+/* 服務 */
+.service{
+	margin-top: 100px;
+	background:linear-gradient(#ffffff,#e2b89d); 
+}
+.cap1{
+	font-weight: bold;
+}
+.cap2{
+	font-weight: bold;
+}
+#xj{
+	width: 600px;
+	margin:0 auto;
+}
+#wixif{
+	width: 600px;
+	margin:0 auto;
+}
+/*聯絡我*/
+.contact {
+	height:750px;
+	padding-top: 100px;
+	background-image: url(../img/DSC09039.JPG);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+
+.contact .title {
+	color:black;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	background: rgba(0, 0, 0, 0.233);
+}
+/* contact的背景 */
+.yourname{
+	position:relative;
+	background: rgba(255, 255, 255, 0.493);
+}
+.yourname{
+	position:relative;
+	background: rgba(255, 255, 255, 0.493);
+}
+.subject{
+	position:relative;
+	background: rgba(255, 255, 255, 0.493);
+}
+content {
+	position:relative;
+	background: rgba(255, 255, 255, 0.493);
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	/* background-color: #ffffff; */
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+/* input[type=submit] {
+  background-color: #ABD0CE;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #8ABCB8;
+} */
+footer{
+	background-color: #e2b89d;
+}
