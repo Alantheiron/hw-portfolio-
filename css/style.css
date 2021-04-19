@@ -107,7 +107,7 @@ height: 250px;
 width: 200px;
 }
 
-/* 服務 */
+/* 作品集 */
 .wrapper{
 	width: 100%;
 	margin:auto;
@@ -129,20 +129,16 @@ width: 200px;
 	margin-top: 100px;
 	background:linear-gradient(#ffffff,#e2b89d); 
 }
+.service img{
+	width: 100%;
+}
 .cap1{
 	font-weight: bold;
 }
 .cap2{
 	font-weight: bold;
 }
-#xj{
-	width: 600px;
-	margin:0 auto;
-}
-#wixif{
-	width: 600px;
-	margin:0 auto;
-}
+
 /*聯絡我*/
 .contact {
 	height:750px;
